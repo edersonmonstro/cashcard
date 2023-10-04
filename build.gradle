@@ -36,10 +36,10 @@ test {
 
         showExceptions true
         exceptionFormat "full"
-        showCauses false
-        showStackTraces true
+        showCauses true
+        showStackTraces false
 
         // Change to `true` for more verbose test output
-        showStandardStreams = true
+        showStandardStreams = false
     }
 }
